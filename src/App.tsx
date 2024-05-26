@@ -1,5 +1,5 @@
-import React from 'react';
-import Users from './components/Users';
+import React from 'react'
+import Users from './components/Users'
 
 interface AppProps {}
 
@@ -12,7 +12,7 @@ const App: React.FC<AppProps> = ({}) => {
 
       <Users />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './Users.scss';
+import React, { useState } from 'react'
+import './Users.scss'
 
-import IMAGE1 from '../assets/images/favicon.png';
-import IMAGE2 from '../assets/images/test.svg';
+import IMAGE1 from '../assets/images/favicon.png'
+import IMAGE2 from '../assets/images/test.svg'
 
 interface UsersProps {}
 
 const Users: React.FC<UsersProps> = ({}) => {
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(0)
 
   return (
     <div>
@@ -29,7 +29,7 @@ const Users: React.FC<UsersProps> = ({}) => {
         <p>{number}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Users;
+export default Users

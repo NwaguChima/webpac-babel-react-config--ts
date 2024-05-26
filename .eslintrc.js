@@ -27,6 +27,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     // Enables the new JSX transform from React 17+
     'plugin:react/jsx-runtime',
+    'plugin:prettier/recommended',
   ],
   rules: {
     'no-unused-vars': 'off',
@@ -38,4 +39,4 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
   },
   ignorePatterns: ['webpack/*'],
-};
+}
