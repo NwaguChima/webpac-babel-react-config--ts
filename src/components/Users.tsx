@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Users.scss';
 
 import IMAGE1 from '../assets/images/favicon.png';
@@ -7,6 +7,8 @@ import IMAGE2 from '../assets/images/test.svg';
 interface UsersProps {}
 
 const Users: React.FC<UsersProps> = ({}) => {
+  const [number, setNumber] = useState(0);
+
   return (
     <div>
       <p>
@@ -19,6 +21,12 @@ const Users: React.FC<UsersProps> = ({}) => {
       <div>
         <img src={IMAGE1} alt="test image" width={300} height={300} />
         <img src={IMAGE2} alt="test image 2" width={300} height={300} />
+      </div>
+
+      <div className="wrapper">
+        <button onClick={() => setNumber((num) => num + 1)}>Click Me!</button>
+
+        <p>{number}</p>
       </div>
     </div>
   );
