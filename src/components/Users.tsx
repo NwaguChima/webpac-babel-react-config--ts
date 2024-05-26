@@ -19,8 +19,8 @@ const Users: React.FC<UsersProps> = ({}) => {
       </p>
 
       <div>
-        <img src={IMAGE1} alt="test image" width={300} height={300} />
-        <img src={IMAGE2} alt="test image 2" width={300} height={300} />
+        <img src={IMAGE1} alt="demo webpack" width={300} height={300} />
+        <img src={IMAGE2} alt="demo file" width={300} height={300} />
       </div>
 
       <div className="wrapper">
