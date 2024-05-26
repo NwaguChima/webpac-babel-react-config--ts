@@ -15,7 +15,6 @@ const Users: React.FC<UsersProps> = ({}) => {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
         culpa animi autem provident illum fuga consectetur ipsum architecto
         ipsam, nisi veniam, deserunt rerum asperiores placeat mollitia deleniti?
-        Temporibus
       </p>
 
       <div>
