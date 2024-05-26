@@ -1,0 +1,27 @@
+import React from 'react';
+import './Users.scss';
+
+import IMAGE1 from '../assets/images/favicon.png';
+import IMAGE2 from '../assets/images/test.svg';
+
+interface UsersProps {}
+
+const Users: React.FC<UsersProps> = ({}) => {
+  return (
+    <div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
+        culpa animi autem provident illum fuga consectetur ipsum architecto
+        ipsam, nisi veniam, deserunt rerum asperiores placeat mollitia deleniti?
+        Temporibus, perspiciatis voluptas!
+      </p>
+
+      <div>
+        <img src={IMAGE1} alt="test image" width={300} height={300} />
+        <img src={IMAGE2} alt="test image 2" width={300} height={300} />
+      </div>
+    </div>
+  );
+};
+
+export default Users;
